@@ -12,31 +12,10 @@
     tools:context="com.example.hogar.ditcalendar.MainActivity"
     tools:showIn="@layout/app_bar_main">
 
-    <TextView
-        android:layout_width="100dp"
-        android:layout_height="100dp"
-        android:text="El DIT Horarios"
-        android:id="@+id/textView" />
 
-    <Button
-        android:layout_width="100dp"
-        android:layout_height="100dp"
-        android:text="Mis Materias"
-        android:id="@+id/btnPreferencias"
-        android:layout_below="@+id/btnCalendarios"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentRight="true"
-        android:layout_alignParentEnd="true"
-        android:background="#16e588" />
-
-    <Button android:id="@+id/btnCalendarios"
-        android:layout_width="100dp"
-        android:layout_height="100dp"
-        android:text="@string/Calendarios"
-        android:layout_below="@+id/textView"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentRight="true"
-        android:layout_alignParentEnd="true" />
+    <ListView
+        android:id="@+id/ListView_listado"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+    </ListView>
 </RelativeLayout>
