@@ -1,5 +1,13 @@
 [
     {
+        "merged": "C:\\home\\leandro\\Documentos\\Universidad\\TNT\\DITCalendar\\C:\\Users\\lucas\\AndroidStudioProjects\\DITCalendar\\app\\build\\intermediates\\res\\merged\\debug\\color-v23\\abc_color_highlight_material.xml",
+        "source": "C:\\home\\leandro\\Documentos\\Universidad\\TNT\\DITCalendar\\C:\\Users\\lucas\\AndroidStudioProjects\\DITCalendar\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\color-v23\\abc_color_highlight_material.xml"
+    },
+    {
+        "merged": "C:\\home\\leandro\\Documentos\\Universidad\\TNT\\DITCalendar\\app\\build\\intermediates\\res\\merged\\debug\\color-v23\\abc_color_highlight_material.xml",
+        "source": "C:\\home\\leandro\\Documentos\\Universidad\\TNT\\DITCalendar\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\color-v23\\abc_color_highlight_material.xml"
+    },
+    {
         "merged": "C:\\Users\\lucas\\AndroidStudioProjects\\DITCalendar\\app\\build\\intermediates\\res\\merged\\debug\\color-v23\\abc_color_highlight_material.xml",
         "source": "C:\\Users\\lucas\\AndroidStudioProjects\\DITCalendar\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\color-v23\\abc_color_highlight_material.xml"
     }

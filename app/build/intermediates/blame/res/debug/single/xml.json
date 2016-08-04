@@ -1,6 +1,14 @@
 [
     {
+        "merged": "C:\\home\\leandro\\Documentos\\Universidad\\TNT\\DITCalendar\\C:\\Users\\lucas\\AndroidStudioProjects\\DITCalendar\\app\\build\\intermediates\\res\\merged\\debug\\xml\\preferencias.xml",
+        "source": "C:\\home\\leandro\\Documentos\\Universidad\\TNT\\DITCalendar\\C:\\Users\\lucas\\AndroidStudioProjects\\DITCalendar\\app\\src\\main\\res\\xml\\preferencias.xml"
+    },
+    {
         "merged": "C:\\Users\\lucas\\AndroidStudioProjects\\DITCalendar\\app\\build\\intermediates\\res\\merged\\debug\\xml\\preferencias.xml",
         "source": "C:\\Users\\lucas\\AndroidStudioProjects\\DITCalendar\\app\\src\\main\\res\\xml\\preferencias.xml"
+    },
+    {
+        "merged": "C:\\home\\leandro\\Documentos\\Universidad\\TNT\\DITCalendar\\app\\build\\intermediates\\res\\merged\\debug\\xml\\preferencias.xml",
+        "source": "C:\\home\\leandro\\Documentos\\Universidad\\TNT\\DITCalendar\\app\\src\\main\\res\\xml\\preferencias.xml"
     }
 ]
