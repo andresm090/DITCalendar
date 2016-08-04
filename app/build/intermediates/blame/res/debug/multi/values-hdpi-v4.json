@@ -1,6 +1,6 @@
 [
     {
-        "outputFile": "C:\\Users\\lucas\\AndroidStudioProjects\\DITCalendar\\app\\build\\intermediates\\res\\merged\\debug\\values-hdpi-v4\\values-hdpi-v4.xml",
+        "outputFile": "/home/leandro/Documentos/Universidad/TNT/DITCalendar/C:\\Users\\lucas\\AndroidStudioProjects\\DITCalendar\\app\\build\\intermediates\\res\\merged\\debug\\values-hdpi-v4\\values-hdpi-v4.xml",
         "map": [
             {
                 "to": {
@@ -12,7 +12,33 @@
                     "endOffset": 327
                 },
                 "from": {
-                    "file": "C:\\Users\\lucas\\AndroidStudioProjects\\DITCalendar\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\values-hdpi-v4\\values-hdpi-v4.xml",
+                    "file": "/home/leandro/Documentos/Universidad/TNT/DITCalendar/C:\\Users\\lucas\\AndroidStudioProjects\\DITCalendar\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\values-hdpi-v4\\values-hdpi-v4.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 55,
+                        "endLine": 6,
+                        "endColumn": 13,
+                        "endOffset": 327
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "outputFile": "/home/leandro/Documentos/Universidad/TNT/DITCalendar/app/build/intermediates/res/merged/debug/values-hdpi-v4/values-hdpi-v4.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endLine": 6,
+                    "endColumn": 13,
+                    "endOffset": 327
+                },
+                "from": {
+                    "file": "/home/leandro/Documentos/Universidad/TNT/DITCalendar/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.1/res/values-hdpi-v4/values-hdpi-v4.xml",
                     "position": {
                         "startLine": 2,
                         "startColumn": 4,

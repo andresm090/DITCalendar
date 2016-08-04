@@ -1,6 +1,10 @@
 [
     {
-        "merged": "C:\\Users\\lucas\\AndroidStudioProjects\\DITCalendar\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi-v4\\ic_launcher.png",
-        "source": "C:\\Users\\lucas\\AndroidStudioProjects\\DITCalendar\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.png"
+        "merged": "/home/leandro/Documentos/Universidad/TNT/DITCalendar/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi-v4/ic_launcher.png",
+        "source": "/home/leandro/Documentos/Universidad/TNT/DITCalendar/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/home/leandro/Documentos/Universidad/TNT/DITCalendar/C:\\Users\\lucas\\AndroidStudioProjects\\DITCalendar\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi-v4\\ic_launcher.png",
+        "source": "/home/leandro/Documentos/Universidad/TNT/DITCalendar/C:\\Users\\lucas\\AndroidStudioProjects\\DITCalendar\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.png"
     }
 ]
