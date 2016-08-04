@@ -23,7 +23,7 @@ public class Materia {
             "Administración de Redes y Seguridad", "Ingenieria de Software III - T", "Aspectos Legales y Profesionales",
             "Sistemas Distribuidos", "Administración de Proyectos", "Aplicaciones Web", "Taller de Nuevas Tecnologias",
             "Modelos y Simulación", "Planificación y Gestión de Sistemas de Información", "Sistemas de Soporte para la Toma de Decisiones",
-            "Introducción a la Metodología de la Investigación Científica y Técnicas Comunicacionales"};
+            "Introducción a la Metodología de la Investigación Científica y Técnicas Comunicacionales", "Mesas de Exámenes Finales"};
 
     private static Map<String, Preferencia> materiasPreferencias = new HashMap<String, Preferencia>(); // HashMap que contiene los codigos de las materias
 
@@ -66,6 +66,7 @@ public class Materia {
             materiasPreferencias.put("Planificación y Gestión de Sistemas de Información", new Preferencia("rq64o17me91gd3bnh21hebo0ho@group.calendar.google.com", "IF053", "PSI", Color.DKGRAY));
             materiasPreferencias.put("Sistemas de Soporte para la Toma de Decisiones", new Preferencia("fdaci27fn9ip704k1rtb32cuq0@group.calendar.google.com", "IF054", "SSTD", Color.MAGENTA));
             materiasPreferencias.put("Introducción a la Metodología de la Investigación Científica y Técnicas Comunicacionales", new Preferencia("l75l6tt1tj1mlaicfn9l1ohf70@group.calendar.google.com", "FA104", "TC", Color.GRAY));
+            materiasPreferencias.put("Mesas de Exámenes Finales", new Preferencia("fpjl7d9peh03r2r7oos2pc32es@group.calendar.google.com", "EXAMEN", "F", Color.RED));
         }
     }
 
