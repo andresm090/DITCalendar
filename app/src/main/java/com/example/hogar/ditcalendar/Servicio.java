@@ -22,7 +22,8 @@ import com.google.android.gms.location.GeofencingEvent;
  */
 public class Servicio extends IntentService{
 
-
+    HttpURLConnection conexion;
+    static final String URL_CONN = "http://192.168.0.5:8080/test";
 
     public Servicio () {
         super(Servicio.class.getSimpleName());
@@ -41,6 +42,7 @@ public class Servicio extends IntentService{
         if (geofenceTransition == Geofence.GEOFENCE_TRANSITION_ENTER){
             Log.i("EVENT","ENTRANDO");
             sendNotification("ENTRANDO");
+            sendInfo();
         }
         if (geofenceTransition == Geofence.GEOFENCE_TRANSITION_DWELL) {
 
@@ -56,6 +58,48 @@ public class Servicio extends IntentService{
 
     }
 
+
+    private void sendInfo(){
+
+        try {
+
+            URL destino =  new URL(URL_CONN);
+            conexion = (HttpURLConnection) destino.openConnection();
+            conexion.setDoInput(true);
+            conexion.setDoOutput(true);
+            conexion.setRequestProperty("Content-Type", "application/json");
+            conexion.setRequestProperty("Accept", "application/json");
+            conexion.setRequestMethod("POST");
+            conexion.connect();
+
+            //Esta información esta como prueba.
+            //Hay que enviar la info correspondiente a la materia
+            //actual en la que se encuentra el alumno
+            JSONObject data = new JSONObject();
+            data.put("id_alumno","1");
+            data.put("id_materia","IF001");
+            data.put("fecha","2016-06-16T18:00:00Z");
+            data.put("latitud","-43.4343");
+            data.put("longitud","60.123213");
+            OutputStream os = conexion.getOutputStream();
+            BufferedWriter writer = new BufferedWriter(
+                    new OutputStreamWriter(os, "UTF-8"));
+            writer.write(data.toString());
+            writer.flush();
+            writer.close();
+            os.close();
+            int response = conexion.getResponseCode();
+            if (response == HttpURLConnection.HTTP_OK){
+                Log.i("Servicio","Respuesta");
+            }
+
+        } catch (Exception e) {
+            e.printStackTrace();
+        } finally {
+            conexion.disconnect();
+            Log.i("Servicio", "Disconnect");
+        }
+    }
 
     private void sendNotification(String notificationDetails) {
         // Create an explicit content Intent that starts the main Activity.
